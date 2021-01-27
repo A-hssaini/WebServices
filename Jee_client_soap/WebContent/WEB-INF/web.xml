@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Sample Servlet Example</display-name>
+  
+  <servlet>
+  	<servlet-name>EnregistrementServlet</servlet-name>
+  	<display-name>EnregistrementServlet</display-name>
+  	<description>Test GET, POST methods of Servlet</description>
+  	<servlet-class>EnregistrementServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EnregistrementServlet</servlet-name>
+  	<url-pattern>/EnregistrementServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>EnregistrementServletMod</servlet-name>
+  	<display-name>EnregistrementServletMod</display-name>
+  	<description>Test GET, POST methods of Servlet</description>
+  	<servlet-class>EnregistrementServletMod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EnregistrementServletMod</servlet-name>
+  	<url-pattern>/EnregistrementServletMod</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>SuppressionServlet</servlet-name>
+  	<display-name>SuppressionServlet</display-name>
+  	<description>Test GET, POST methods of Servlet</description>
+  	<servlet-class>SuppressionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SuppressionServlet</servlet-name>
+  	<url-pattern>/SuppressionServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SuppressionServletMod</servlet-name>
+  	<display-name>SuppressionServletMod</display-name>
+  	<description>Test GET, POST methods of Servlet</description>
+  	<servlet-class>SuppressionServletMod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SuppressionServletMod</servlet-name>
+  	<url-pattern>/SuppressionServletMod</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ModificationServlet</servlet-name>
+  	<display-name>ModificationServlet</display-name>
+  	<description>Test GET, POST methods of Servlet</description>
+  	<servlet-class>ModificationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ModificationServlet</servlet-name>
+  	<url-pattern>/ModificationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ModificationServletMod</servlet-name>
+  	<display-name>ModificationServletMod</display-name>
+  	<description>Test GET, POST methods of Servlet</description>
+  	<servlet-class>ModificationServletMod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ModificationServletMod</servlet-name>
+  	<url-pattern>/ModificationServletMod</url-pattern>
+  </servlet-mapping>
+
+</web-app>
